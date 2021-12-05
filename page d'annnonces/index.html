@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>page d'annonces</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b6e4d8f1e7.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./bootstrap.min.js"></script>
+</head>
+<body>
+    <!--navbar-->
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 navbar">
+				<a href="index.html" class="logo navbar-brand text-white offset-md-2">SAFEMEDINA</a>
+				<ul class="nav">
+					<li class="nav-item "><a href="#" class="nav-link">Accueil</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Notre vision</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Annonces</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link">Déposer une annonce</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">se connecter</a></li>
+				</ul>
+			</div>
+        </div>
+    </div>
+    <div class="title-annonce">
+      <h1>Annonces</h1>
+      <h5>Accueil > Annonces</h5>
+    </div><br><br>
+    
+    <!--search box-->
+    <div class="search">
+      <div class="box">
+
+          <i class="fa fa-search" aria-hidden="true"></i>
+
+          <input type="text" name="cherchez par mots-clés" placeholder="cherchez par mots-clé">
+      
+
+      </div>
+      <div class="barre">
+          <select class="drop-list pays" name ="pays" >
+              
+              <optgroup label="pays">
+                  <option >pays</option>
+                  <option value="maroc">maroc</option>
+                  <option value="france">france</option>
+                  <option value="Italie">Italie</option>
+           </optgroup>
+          
+          </select>
+          <select class="drop-list ville" name="ville">
+              
+              <optgroup label="villes">
+                  <option>ville</option>
+                  <option value="casa">casa</option>
+                  <option value="paris">paris</option>
+                  <option value="rome">rome</option>
+              </optgroup>
+          
+          </select>
+          <select class="drop-list categ" name="Catégorie">
+              <option>Catégorie</option>
+              
+      
+          
+          </select>
+          <select class="drop-list sort" name="Trier par">
+              
+              <optgroup label="trier par">
+                  <option>Trier par</option>
+                  <option value="Pays">Pays</option>
+                  <option value="ville">france</option>
+                  <option value="Catégorie">Italie</option>
+              </optgroup>
+              
+          </select>
+      </div>    
+  </div>
+   <!--cards d'aninces-->
+    <div class="card-deck">
+        <div class="card">
+        <div class="card-img">
+            <div class="image-side-animal"></div>
+            <img class="card-img-top" src="./img/cat.png" alt="Card image cap">
+            <div class="top-right"><i class="fas fa-paw"></i></div>
+            <div class="buttom-left">URGENT</div>
+        </div>
+          <div class="card-body">
+            <span class="soutitre-encours"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This is a wider card with supporting text below as a naturaLorem Ipsum is simply dummy text of the printing and typesetting industry. This content is a little bit longer.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+        </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <div class="image-side-envi"></div>
+                <img class="card-img-top" src="./img/cat2.jpg" alt="Card image cap">
+                <div class="top-right-envi"><i class="fas fa-seedling"></i></div>
+            </div>
+          <div class="card-body">
+            <span class="soutitre-terminé"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This card has supporting text below as a natural leLorem Ipsum is simply dummy text of the printing and typesetting industry.orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <div class="image-side-hum"></div>
+                <img class="card-img-top" src="./img/cat3.jpg" alt="Card image cap">
+                <div class="top-right-hum"><i class="fas fa-users"></i></div>
+            </div>
+          <div class="card-body">
+            <span class="soutitre-encours"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This is a wider card with supporting text belowLorem Ipsum is simply dummy text of the printing anesetting industry. -in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div> 
+      </div>
+      <div class="card-deck">
+        <div class="card">
+        <div class="card-img">
+            <div class="image-side-animal"></div>
+            <img class="card-img-top" src="./img/cat.png" alt="Card image cap">
+            <div class="top-right"><i class="fas fa-paw"></i></div>
+            <div class="buttom-left">URGENT</div>
+        </div>
+          <div class="card-body">
+            <span class="soutitre-encours"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This is a wider card with supporting text below as a naturaLorem Ipsum is simply dummy text of the printing and typesetting industry. This content is a little bit longer.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+        </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <div class="image-side-envi"></div>
+                <img class="card-img-top" src="./img/cat2.jpg" alt="Card image cap">
+                <div class="top-right-envi"><i class="fas fa-seedling"></i></div>
+            </div>
+          <div class="card-body">
+            <span class="soutitre-terminé"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This card has supporting text below as a natural leLorem Ipsum is simply dummy text of the printing and typesetting industry.orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <div class="image-side-hum"></div>
+                <img class="card-img-top" src="./img/cat3.jpg" alt="Card image cap">
+                <div class="top-right-hum"><i class="fas fa-users"></i></div>
+            </div>
+          <div class="card-body">
+            <span class="soutitre-encours"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This is a wider card with supporting text belowLorem Ipsum is simply dummy text of the printing anesetting industry. -in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div> 
+      </div>
+      <div class="card-deck">
+        <div class="card">
+        <div class="card-img">
+            <div class="image-side-animal"></div>
+            <img class="card-img-top" src="./img/cat.png" alt="Card image cap">
+            <div class="top-right"><i class="fas fa-paw"></i></div>
+            <div class="buttom-left">URGENT</div>
+        </div>
+          <div class="card-body">
+            <span class="soutitre-encours"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This is a wider card with supporting text below as a naturaLorem Ipsum is simply dummy text of the printing and typesetting industry. This content is a little bit longer.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+        </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <div class="image-side-envi"></div>
+                <img class="card-img-top" src="./img/cat2.jpg" alt="Card image cap">
+                <div class="top-right-envi"><i class="fas fa-seedling"></i></div>
+            </div>
+          <div class="card-body">
+            <span class="soutitre-terminé"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This card has supporting text below as a natural leLorem Ipsum is simply dummy text of the printing and typesetting industry.orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <div class="image-side-hum"></div>
+                <img class="card-img-top" src="./img/cat3.jpg" alt="Card image cap">
+                <div class="top-right-hum"><i class="fas fa-users"></i></div>
+            </div>
+          <div class="card-body">
+            <span class="soutitre-encours"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This is a wider card with supporting text belowLorem Ipsum is simply dummy text of the printing anesetting industry. -in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div> 
+      </div>
+      <div class="card-deck">
+        <div class="card">
+        <div class="card-img">
+            <div class="image-side-animal"></div>
+            <img class="card-img-top" src="./img/cat.png" alt="Card image cap">
+            <div class="top-right"><i class="fas fa-paw"></i></div>
+            <div class="buttom-left">URGENT</div>
+        </div>
+          <div class="card-body">
+            <span class="soutitre-encours"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This is a wider card with supporting text below as a naturaLorem Ipsum is simply dummy text of the printing and typesetting industry. This content is a little bit longer.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+        </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <div class="image-side-envi"></div>
+                <img class="card-img-top" src="./img/cat2.jpg" alt="Card image cap">
+                <div class="top-right-envi"><i class="fas fa-seedling"></i></div>
+            </div>
+          <div class="card-body">
+            <span class="soutitre-terminé"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This card has supporting text below as a natural leLorem Ipsum is simply dummy text of the printing and typesetting industry.orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <div class="image-side-hum"></div>
+                <img class="card-img-top" src="./img/cat3.jpg" alt="Card image cap">
+                <div class="top-right-hum"><i class="fas fa-users"></i></div>
+            </div>
+          <div class="card-body">
+            <span class="soutitre-encours"></span>
+            <h5 class="card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p class="card-text">This is a wider card with supporting text belowLorem Ipsum is simply dummy text of the printing anesetting industry. -in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <div class="card-post">
+                <i class="fas fa-map-marker-alt"></i><span class="city">Marrakech</span><i class="fas fa-calendar"></i><span class="date">12-04-2021</span>        
+              </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+                <div class="icons-card">
+                    <i class="fas fa-comment"></i> <span class="comment-card">12 commentaire</span> 
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i> 
+                    <i class="fab fa-whatsapp"></i>   
+                </div>
+            </small>
+          </div>
+        </div> 
+      </div>
+
+      <!--more annonce-->
+    <div class="plus-anonce">
+        <button class="button" >Voir plus les annonces</button>
+    </div>
+      <!--flat card-->
+      <div class="flat-card">
+        <div class="title-flat"><h1>Lorem Ipsum is simply dummy.</h1></div>
+        <div class="parag">
+            <p>Lorem Ipsum is simply dumm
+                y text of the printing and typesetting industry. Lorem Ips
+                um has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer took a galley of type and scrambled it to make a t remaining essentially unchanged. It was popularised in</p>
+        </div>
+        <div class="depose-anonce">
+            <button class="button2" >Deposer une annonce</button>
+        </div>
+
+      </div>
+      <!--footer-->
+      <br><br>
+   <footer class="footer">
+    <div class="container-foot">
+        <div class="row-foot">
+            <div class="footer-col">
+                <h4>SAFEMEDINA</h4>
+            <div class="para-foot">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+            </div>                
+            </div>
+            <div class="footer-col">
+                <h4>Notre site</h4>
+                <ul class="ul-foot">
+                    <li><a href="#">Notre vision</a></li>
+                    <li><a href="#">Annonces</a></li>
+                    <li><a href="#">Déposer une annonce</a></li>
+                    <li><a href="#">Se connecter</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Politiques</h4>
+                <ul class="ul-foot">
+                    <li><a href="#">Politique de cookies</a></li>
+                    <li><a href="#">Bibliothéque</a></li>
+                    <li><a href="#">Politique de Confidentialité</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="h4-foot">follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
